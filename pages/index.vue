@@ -7,16 +7,16 @@
       <div class="container max-w-screen-xl mx-auto px-4">
 
         <div class="mt-28 text-center xl:text-left">
-          <h1 class="font-semibold text-4xl md:text-6xl lg:text-7xl text-gray-900 leading-normal mb-6">Get your dream
-            <br> house now
+          <h1 class="font-semibold text-4xl md:text-6xl lg:text-7xl text-gray-900 leading-normal mb-6">Грандиозные
+            <br> поездки!
           </h1>
 
-          <p class="font-normal text-xl text-gray-400 leading-relaxed mb-12">Having a sweet home is everyone's dream.
-            Have you <br> owned your dream house?</p>
+          <p class="font-normal text-xl text-gray-400 leading-relaxed mb-12">Ищете прекрасные места
+            для отдыха? <br> Обращайтесь к нам!</p>
 
           <button
             class="px-6 py-4 bg-blue-500  text-white font-semibold text-lg rounded-xl hover:bg-blue-700 transition ease-in-out duration-500"
-          >Contact us</button>
+          >Связаться с нами</button>
         </div>
 
         <div class="hidden xl:block xl:absolute z-0 top-0 right-0">
@@ -29,9 +29,7 @@
 
       </div>
     </section>
-    <!-- home section //nd -->
 
-    <!-- feature section -->
     <section class="bg-white py-10 md:py-16 xl:relative">
 
       <div class="container max-w-screen-xl mx-auto px-4">
@@ -48,10 +46,10 @@
 
           <div class="">
 
-            <h1 class="font-semibold text-gray-900 text-xl md:text-4xl text-center leading-normal mb-6">Choice of
+            <h1 class="font-semibold text-gray-900 text-xl md:text-4xl leading-normal mb-6">Choice of
               various types of <br> house</h1>
 
-            <p class="font-normal text-gray-400 text-md md:text-xl text-center mb-16">We provide a wide of selection of
+            <p class="font-normal text-gray-400 text-md md:text-xl mb-16">We provide a wide of selection of
               home types for you and your <br> family and are free to choose a home model</p>
 
             <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
@@ -87,76 +85,63 @@
       </div> <!-- container.// -->
 
     </section>
-    <!-- feature section //end -->
 
-    <!-- gallery section -->
     <section class="bg-white py-10 md:py-16">
 
       <div class="container max-w-screen-xl mx-auto px-4">
 
-        <h1 class="font-semibold text-gray-900 text-4xl text-center mb-10">Our Gallery</h1>
-
-        <div class="hidden md:block flex items-center text-center space-x-10 lg:space-x-20 mb-12">
-          <a
-            href="#"
-            class="px-6 py-2 bg-blue-600 text-white font-semibold text-xl rounded-lg hover:bg-blue-400 transition ease-in-out duration-500"
-          >All</a>
-          <a
-            href="#"
-            class="px-6 py-2 text-gray-900 font-normal text-xl rounded-lg hover:bg-gray-200 hover:text-gray-400 transition ease-in-out duration-500"
-          >Exterior</a>
-          <a
-            href="#"
-            class="px-6 py-2 text-gray-900 font-normal text-xl rounded-lg hover:bg-gray-200 hover:text-gray-400 transition ease-in-out duration-500"
-          >Interior</a>
-          <a
-            href="#"
-            class="px-6 py-2 text-gray-900 font-normal text-xl rounded-lg hover:bg-gray-200 hover:text-gray-400 transition ease-in-out duration-500"
-          >Building</a>
-        </div>
+        <h1 class="font-semibold text-gray-900 text-4xl text-center mb-10">Доступные Путёвки</h1>
 
         <div class="flex space-x-4 md:space-x-6 lg:space-x-8">
           <div>
             <img
-              src="assets/image/gallery-1.png"
+              src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/91/53/d1.jpg"
               alt="image"
-              class="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500"
+              style="width: 411px; height: 280px;"
+              class="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 object-cover object-center transition ease-in-out duration-500"
             >
             <img
-              src="assets/image/gallery-4.png"
+              src="https://blog.howlanders.com/wp-content/uploads/2021/08/tours-to-machu-picchu.jpg"
               alt="image"
-              class="hover:opacity-75 transition ease-in-out duration-500"
+              style="width: 411px; height: 592px;"
+              class="hover:opacity-75 transition object-cover object-center ease-in-out duration-500"
+            >
+
+          </div>
+
+          <div>
+            <img
+              src="https://nationalparkexpress.com/wp-content/uploads/2022/05/grand-canyon-west-1.jpg"
+              alt="image"
+              style="width: 411px; height: 280px;"
+              class="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 object-cover object-center transition ease-in-out duration-500"
+            >
+            <img
+              src="https://www.nationalgeographic.com/content/dam/expeditions/destinations/africa/journeys/Tanzania-Safari-Experience/tanzania-safari-experience-lead-lion-cubs.jpg"
+              alt="image"
+              style="width: 411px; height: 280px;"
+              class="mb-3 md:mb-6 lg:mb-8 hover:opacity-75 object-cover object-center transition ease-in-out duration-500"
+            >
+            <img
+              src="https://www.tauck.com/-/media/Tauck/Collection/Hero-Images/Collection_RiverCruising_banner.jpg?h=817&w=1400&rev=d476ae5fcad245328f8813d80f321649&hash=C65DBFD85BE7626CA48EF9D2D1FFDEFA"
+              alt="image"
+              style="width: 411px; height: 280px;"
+              class="hover:opacity-75 transition object-cover object-center ease-in-out duration-500"
             >
           </div>
 
           <div>
             <img
-              src="assets/image/gallery-2.png"
+              src="https://quicksilver-cruises.com/qsc/wp-content/uploads/2015/10/hero-mobile-720-bg3.jpg"
               alt="image"
-              class="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500"
+              style="width: 411px; height: 592px;"
+              class="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 object-cover object-center transition ease-in-out duration-500"
             >
             <img
-              src="assets/image/gallery-5.png"
+              src="https://media.tacdn.com/media/attractions-splice-spp-674x446/12/2e/16/f8.jpg"
               alt="image"
-              class="mb-3 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500"
-            >
-            <img
-              src="assets/image/gallery-6.png"
-              alt="image"
-              class="hover:opacity-75 transition ease-in-out duration-500"
-            >
-          </div>
-
-          <div>
-            <img
-              src="assets/image/gallery-3.png"
-              alt="image"
-              class="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 transition ease-in-out duration-500"
-            >
-            <img
-              src="assets/image/gallery-7.png"
-              alt="image"
-              class="hover:opacity-75 transition ease-in-out duration-500"
+              style="width: 411px; height: 280px;"
+              class="hover:opacity-75 transition ease-in-out object-cover object-center duration-500"
             >
           </div>
         </div>
@@ -164,6 +149,304 @@
       </div> <!-- container.// -->
 
     </section>
+
+
+    <section class="bg-white py-10 md:py-16">
+
+      <div class="container max-w-screen-xl mx-auto px-4">
+
+        <h1 class="font-semibold text-gray-900 text-4xl text-center mb-10">Наши Отели</h1>
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://cdn.worldota.net/t/1200x616/extranet/1f/33/1f33b4b63d2f2ee5dd868209231742f99a41b67e.jpeg"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Россия, Москва</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Гостиница Арбат</h1>
+                <p class="leading-relaxed">Элегантный отель с видом на Красную площадь. Наслаждайтесь роскошными
+                  номерами и первоклассным сервисом в самом сердце Москвы.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://www.hotels.ru/content/images/articles/eiffel_tower_16.jpg"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Франция, Париж</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Отель Эйфелева Башня</h1>
+                <p class="leading-relaxed">Романтический отель с видом на Эйфелеву башню. Идеально подходит для
+                  влюбленных пар и туристов, ценящих красоту Парижа.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://img-fotki.yandex.ru/get/988220/245498954.2b0/0_25751f_7dc9c6b7_orig.jpg"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Италия, Рим</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Вилла Тиберина</h1>
+                <p class="leading-relaxed">Очаровательный бутик-отель, расположенный в историческом центре Рима. Ощутите
+                  атмосферу древнего города в комфортных условиях.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/305582502.jpg?k=a63ceffc38e48825703cead04fcd8f785ff72fcff01190811ad5a282aeba77af&o=&hp=1"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Япония, Токио</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Императорский Палас Отель</h1>
+                <p class="leading-relaxed">Современный отель с видом на Императорский дворец. Насладитесь гармонией
+                  японской культуры и высокими стандартами обслуживания.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://www.thesun.co.uk/wp-content/uploads/2024/03/big-attraction-inside-mind-bending-888441149.jpg"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Испания, Барселона</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Гран Хотель Гауди</h1>
+                <p class="leading-relaxed">Роскошный отель в стиле модерн, расположенный рядом с шедеврами Гауди.
+                  Идеальное место для тех, кто ценит искусство и комфорт.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/232575872.jpg?k=beb1dfae9dc912ffb5fdea86ce69bf2fbfe1f28c96dc2c2dda8c8231d7d2ae7c&o=&hp=1"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Австралия, Сидней</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Отель Оперный Дом</h1>
+                <p class="leading-relaxed">Современный отель с видом на Сиднейский оперный театр и гавань. Идеален для
+                  туристов, желающих исследовать красоту и культуру Сиднея.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- container.// -->
+    </section>
+
+    <section class="bg-white py-10 md:py-16">
+
+      <div class="container max-w-screen-xl mx-auto px-4">
+
+        <h1 class="font-semibold text-gray-900 text-4xl text-center mb-10">Страны сотрудничества</h1>
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Russia-512x341.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Россия</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_France-512x341.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Франция</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Italy-512x341.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Италия</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Spain-512x341.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Испания</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Germany-512x307.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Германия</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Japan-512x341.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Япония</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Australia-512x256.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Австралия</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Canada-512x256.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Канада</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Peoples_Republic_of_China-512x341.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Китай</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Brazil-512x358.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Бразилия</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_Argentina-512x320.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Аргентина</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+            <div class="flex relative h-[100%]">
+              <img
+                alt="gallery"
+                class="absolute rounded-md border-blue-400 border border-[5px] inset-0 w-full h-full object-cover object-center"
+                src="/assets/image/Flag_of_India-512x341.png"
+              >
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 flex justify-center items-center transition ease-in-out duration-300"
+              >
+                <h2 class="tracking-widest text-3xl title-font font-bold text-blue-500 mb-1">Индия</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- container.// -->
+    </section>
+
+
     <!-- gallery section //end -->
 
     <!-- testimoni section -->
@@ -281,11 +564,13 @@
         <div class="bg-blue-600 flex flex-col lg:flex-row items-center justify-evenly py-14 rounded-3xl">
 
           <div class="text-center lg:text-left mb-10 lg:mb-0">
-            <h1 class="font-semibold text-white text-4xl md:text-5xl lg:text-7xl leading-normal mb-4">Talk to us <br> to
-              discuss</h1>
+            <h1 class="font-semibold text-white text-4xl md:text-5xl lg:text-7xl leading-normal mb-4">Бронь <br> путевок
+            </h1>
 
-            <p class="font-normal text-white text-md md:text-xl">Need more time to discuss? Won’t worry, we are <br>
-              ready to help you. You can fill in the column on the <br> right to book a meeting with us. Totally free.
+            <p class="font-normal text-white text-md md:text-xl">Здесь вы можете забронировать себя к доступной путевке
+              <br>
+              Напишите свои контактные данные, <br> чтобы мы могли с вами связаться <br> Мы вам ответим как можно
+              скорее!
             </p>
           </div>
 
@@ -298,13 +583,13 @@
 
           <div class="hidden md:block bg-white xl:relative px-6 py-3 rounded-3xl">
             <div class="py-3">
-              <h3 class="font-semibold text-gray-900 text-3xl">Book a meeting</h3>
+              <h3 class="font-semibold text-gray-900 text-3xl">Забронировать путевку</h3>
             </div>
 
             <div class="py-3">
               <input
                 type="text"
-                placeholder="Full Name"
+                placeholder="ФИО"
                 class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               >
             </div>
@@ -312,7 +597,7 @@
             <div class="py-3">
               <input
                 type="text"
-                placeholder="Email"
+                placeholder="Номер телефона"
                 class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               >
             </div>
@@ -320,7 +605,7 @@
             <div class="py-3 relative">
               <input
                 type="text"
-                placeholder="Date"
+                placeholder="Дата поездки"
                 class="px-4 py-4 w-96 bg-gray-100 font-normal text-lg placeholder-gray-400 rounded-xl outline-none"
               >
 
@@ -332,7 +617,7 @@
             <div class="py-3 relative">
               <input
                 type="text"
-                placeholder="Virtual Meeting"
+                placeholder="Название путевки"
                 class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               >
 
@@ -344,7 +629,7 @@
             <div class="py-3">
               <button
                 class="w-full py-4 font-semibold text-lg text-white bg-blue-500  rounded-xl hover:bg-blue-700 transition ease-in-out duration-500"
-              >Booking</button>
+              >Забронировать</button>
             </div>
           </div>
 
