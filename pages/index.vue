@@ -1,100 +1,33 @@
 <template>
 
-  <Head>
-    <Link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <Link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-    />
-    <Link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-  </Head>
+
   <div class="font-body">
     <!-- home section -->
     <section class="bg-white mb-20 md:mb-52 xl:mb-72">
-
       <div class="container max-w-screen-xl mx-auto px-4">
 
-        <nav
-          class="flex-wrap lg:flex items-center py-14 xl:relative z-10"
-          x-data="{navbarOpen:false}"
-        >
+        <div class="mt-28 text-center xl:text-left">
+          <h1 class="font-semibold text-4xl md:text-6xl lg:text-7xl text-gray-900 leading-normal mb-6">Get your dream
+            <br> house now
+          </h1>
 
-          <div class="flex items-center justify-between mb-10 lg:mb-0">
-            <img
-              src="assets/image/navbar-logo.png"
-              alt="Logo img"
-              class="w-52 md:w-80 lg:w-full"
-            >
-          </div>
-
-          <ul class="lg:flex flex-col lg:flex-row lg:items-center lg:mx-auto lg:space-x-8 xl:space-x-16">
-
-            <li
-              class="font-semibold text-gray-900 text-lg hover:text-gray-400 transition ease-in-out duration-300 mb-5 lg:mb-0"
-            >
-              <a href="#">Landing</a>
-            </li>
-
-            <li
-              class="font-semibold text-gray-900 text-lg hover:text-gray-400 transition ease-in-out duration-300 mb-5 lg:mb-0"
-            >
-              <a href="#">Pages</a>
-            </li>
-
-            <li
-              class="font-semibold text-gray-900 text-lg hover:text-gray-400 transition ease-in-out duration-300 mb-5 lg:mb-0"
-            >
-              <a href="#">Contact</a>
-            </li>
-
-            <li
-              class="font-semibold text-gray-900 text-lg hover:text-gray-400 transition ease-in-out duration-300 mb-5 lg:mb-0"
-            >
-              <a href="#">About</a>
-            </li>
-
-          </ul>
+          <p class="font-normal text-xl text-gray-400 leading-relaxed mb-12">Having a sweet home is everyone's dream.
+            Have you <br> owned your dream house?</p>
 
           <button
-            class="px-5 py-3 lg:block border-2 border-green-700 rounded-lg font-semibold text-green-700 text-lg hover:bg-green-700 hover:text-white transition ease-linear duration-500"
-          >
-            Request quote
-          </button>
-
-        </nav>
-
-        <div class="flex items-center justify-center xl:justify-start">
-
-          <div class="mt-28 text-center xl:text-left">
-            <h1 class="font-semibold text-4xl md:text-6xl lg:text-7xl text-gray-900 leading-normal mb-6">Get your dream
-              <br> house now
-            </h1>
-
-            <p class="font-normal text-xl text-gray-400 leading-relaxed mb-12">Having a sweet home is everyone's dream.
-              Have you <br> owned your dream house?</p>
-
-            <button
-              class="px-6 py-4 bg-green-700 text-white font-semibold text-lg rounded-xl hover:bg-green-900 transition ease-in-out duration-500"
-            >Contact us</button>
-          </div>
-
-          <div class="hidden xl:block xl:absolute z-0 top-0 right-0">
-            <img
-              src="assets/image/home-img.png"
-              alt="Home img"
-            >
-          </div>
-
+            class="px-6 py-4 bg-blue-500  text-white font-semibold text-lg rounded-xl hover:bg-blue-700 transition ease-in-out duration-500"
+          >Contact us</button>
         </div>
 
-      </div> <!-- container.// -->
+        <div class="hidden xl:block xl:absolute z-0 top-0 right-0">
+          <img
+            src="assets/image/home-img.jpg"
+            alt="Home img"
+            style="width: 808px; height: 900px; object-fit: cover; object-position: center; border-radius: 10px;"
+          >
+        </div>
 
+      </div>
     </section>
     <!-- home section //nd -->
 
@@ -107,8 +40,9 @@
 
           <div class="hidden xl:block xl:absolute left-0 bottom-0 w-full">
             <img
-              src="assets/image/feature-img.png"
+              src="/assets/image/feauture-img.jpg"
               alt="Feature img"
+              style="width: 798px; height: 798px; object-fit: cover; object-position: center; border-radius: 10px;"
             >
           </div>
 
@@ -165,7 +99,7 @@
         <div class="hidden md:block flex items-center text-center space-x-10 lg:space-x-20 mb-12">
           <a
             href="#"
-            class="px-6 py-2 bg-green-800 text-white font-semibold text-xl rounded-lg hover:bg-green-600 transition ease-in-out duration-500"
+            class="px-6 py-2 bg-blue-600 text-white font-semibold text-xl rounded-lg hover:bg-blue-400 transition ease-in-out duration-500"
           >All</a>
           <a
             href="#"
@@ -344,7 +278,7 @@
 
       <div class="container max-w-screen-xl mx-auto px-4 xl:relative">
 
-        <div class="bg-green-800 flex flex-col lg:flex-row items-center justify-evenly py-14 rounded-3xl">
+        <div class="bg-blue-600 flex flex-col lg:flex-row items-center justify-evenly py-14 rounded-3xl">
 
           <div class="text-center lg:text-left mb-10 lg:mb-0">
             <h1 class="font-semibold text-white text-4xl md:text-5xl lg:text-7xl leading-normal mb-4">Talk to us <br> to
@@ -409,7 +343,7 @@
 
             <div class="py-3">
               <button
-                class="w-full py-4 font-semibold text-lg text-white bg-green-700 rounded-xl hover:bg-green-900 transition ease-in-out duration-500"
+                class="w-full py-4 font-semibold text-lg text-white bg-blue-500  rounded-xl hover:bg-blue-700 transition ease-in-out duration-500"
               >Booking</button>
             </div>
           </div>
@@ -420,128 +354,6 @@
 
     </section>
     <!-- book section //end -->
-
-    <!-- footer -->
-    <footer class="bg-white py-10 md:py-16">
-
-      <div class="container max-w-screen-xl mx-auto px-4">
-
-        <div class="flex flex-col lg:flex-row justify-between">
-          <div class="text-center lg:text-left mb-10 lg:mb-0">
-            <div class="flex justify-center lg:justify-start mb-5">
-              <img
-                src="assets/image/footer-logo.png"
-                alt="Image"
-              >
-            </div>
-
-            <p class="font-light text-gray-400 text-xl mb-10">Get your dream house with <br> D’house</p>
-
-            <div class="flex items-center justify-center lg:justify-start space-x-5">
-              <a
-                href="#"
-                class="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-green-800 hover:text-white transition ease-in-out duration-500"
-              >
-                <i data-feather="facebook"></i>
-              </a>
-
-              <a
-                href="#"
-                class="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-green-800 hover:text-white transition ease-in-out duration-500"
-              >
-                <i data-feather="twitter"></i>
-              </a>
-
-              <a
-                href="#"
-                class="px-3 py-3 bg-gray-200 text-gray-700 rounded-full hover:bg-green-800 hover:text-white transition ease-in-out duration-500"
-              >
-                <i data-feather="linkedin"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="text-center lg:text-left mb-10 lg:mb-0">
-            <h4 class="font-semibold text-gray-900 text-2xl mb-6">Sitemap</h4>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Home</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Features</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Gallery</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Testimoni</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Book a meeting</a>
-          </div>
-
-          <div class="text-center lg:text-left mb-10 lg:mb-0">
-            <h4 class="font-semibold text-gray-900 text-2xl mb-6">Landing</h4>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Mobile App</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Property</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Personal Website</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Web Developer</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Online Course</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Donation</a>
-          </div>
-
-          <div class="text-center lg:text-left">
-            <h4 class="font-semibold text-gray-900 text-2xl mb-6">Utility</h4>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >FAQ</a>
-
-            <a
-              href="#"
-              class="block font-light text-gray-400 text-xl mb-6 hover:text-gray-800 transition ease-in-out duration-300"
-            >Terms & Conditions</a>
-          </div>
-        </div>
-
-      </div>
-
-    </footer>
   </div>
 </template>
 
