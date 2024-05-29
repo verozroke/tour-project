@@ -30,7 +30,7 @@
       </div>
     </section>
 
-    <section class="bg-white py-10 md:py-16 xl:relative">
+    <section class="bg-white py-20 relative">
 
       <div class="container max-w-screen-xl mx-auto px-4">
 
@@ -46,8 +46,7 @@
 
           <div class="">
 
-            <h1 class="font-semibold text-gray-900 text-xl md:text-4xl leading-normal mb-6">Choice of
-              various types of <br> house</h1>
+            <h1 class="font-semibold text-gray-900 text-xl md:text-4xl leading-normal mb-6">О нас</h1>
 
             <p class="font-normal text-gray-400 text-md md:text-xl mb-16">We provide a wide of selection of
               home types for you and your <br> family and are free to choose a home model</p>
@@ -80,6 +79,58 @@
 
           </div>
 
+        </div>
+
+      </div> <!-- container.// -->
+
+    </section>
+
+    <section class="bg-white py-20 relative">
+
+      <div class="container max-w-screen-xl mx-auto px-4">
+
+        <div class="flex flex-col xl:flex-row justify-end">
+          <div class="w-full">
+
+            <h1 class="font-semibold text-gray-900 text-xl md:text-4xl leading-normal mb-6">Почему мы?</h1>
+
+            <p class="font-normal text-gray-400 text-md md:text-xl mb-16">We provide a wide of selection of
+              home types for you and your <br> family and are free to choose a home model</p>
+
+            <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
+              <div class="text-center md:text-left">
+                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Best Home Guarantee</h4>
+                <p class="font-normal text-gray-400 text-xl leading-relaxed">We guarantees the quality of your home you
+                  bought <br> from D’house</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
+
+              <div class="text-center md:text-left">
+                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Safe Transaction</h4>
+                <p class="font-normal text-gray-400 text-xl leading-relaxed">Your transactions will always be kept
+                  confidential <br> and will get discounted</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4">
+
+              <div class="text-center md:text-left">
+                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Low and Cost Home Taxes</h4>
+                <p class="font-normal text-gray-400 text-xl leading-relaxed">By buying a house from D’house, you will
+                  get a tax <br> discount</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="absolute right-0 bottom-0">
+            <img
+              src="https://images.unsplash.com/photo-1655337169484-d9bf5a8c5b6f?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Feature img"
+              style="width: 798px; height: 798px; object-fit: cover; object-position: center; border-radius: 10px;"
+            >
+          </div>
         </div>
 
       </div> <!-- container.// -->
@@ -589,6 +640,7 @@
             <div class="py-3">
               <input
                 type="text"
+                v-model="Name"
                 placeholder="ФИО"
                 class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               >
@@ -597,6 +649,7 @@
             <div class="py-3">
               <input
                 type="text"
+                v-model="Phone"
                 placeholder="Номер телефона"
                 class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               >
@@ -605,19 +658,17 @@
             <div class="py-3 relative">
               <input
                 type="text"
+                v-model="DateData"
                 placeholder="Дата поездки"
                 class="px-4 py-4 w-96 bg-gray-100 font-normal text-lg placeholder-gray-400 rounded-xl outline-none"
               >
-
-              <div class="absolute inset-y-0 left-80 ml-6 flex items-center text-xl text-gray-600">
-                <i data-feather="calendar"></i>
-              </div>
             </div>
 
             <div class="py-3 relative">
               <input
                 type="text"
-                placeholder="Название путевки"
+                placeholder="Название отеля"
+                v-model="HotelName"
                 class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               >
 
@@ -628,6 +679,7 @@
 
             <div class="py-3">
               <button
+                @click="send"
                 class="w-full py-4 font-semibold text-lg text-white bg-blue-500  rounded-xl hover:bg-blue-700 transition ease-in-out duration-500"
               >Забронировать</button>
             </div>
@@ -646,6 +698,24 @@
   setup
   lang="ts"
 >
+import axios from 'axios'
+
+const Name = ref('')
+const Phone = ref('')
+const DateData = ref('')
+const HotelName = ref('')
+
+const send = async () => {
+  const { data } = await axios.postForm('https://script.google.com/macros/s/AKfycbzvlPI8dZbkuCHPyBkl9QYnNoqPMitxvtJ9lwN8OOdfQOlUeEJ9duyMTpoHFlhsJdqqkg/exec', {
+    Name: Name.value,
+    Phone: Phone.value,
+    Date: DateData.value,
+    HotelName: HotelName.value,
+  })
+
+  alert(data)
+}
+
 
 </script>
 

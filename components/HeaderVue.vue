@@ -10,31 +10,30 @@
       Tour+
     </div>
 
-    <ul class="lg:flex flex-col lg:flex-row lg:items-center lg:mx-auto lg:space-x-8 xl:space-x-16 ">
-
+    <ul class="flex flex-1 flex-row mx-8 gap-4 ">
       <li
         class="font-semibold text-gray-900 text-lg hover:text-blue-500 transition ease-in-out duration-300 mb-5 lg:mb-0"
       >
-        <NuxtLink to="/">Home</NuxtLink>
+        <NuxtLink to="/">Главная</NuxtLink>
       </li>
 
       <li
         class="font-semibold text-gray-900 text-lg hover:text-blue-500 transition ease-in-out duration-300 mb-5 lg:mb-0"
       >
-        <NuxtLink to="/hotels">Hotels</NuxtLink>
+        <NuxtLink to="/hotels">Отели</NuxtLink>
 
       </li>
 
       <li class="font-semibold text-lg hover:text-blue-500 transition ease-in-out duration-300 mb-5 lg:mb-0">
-        <NuxtLink to="/faq">FAQ</NuxtLink>
+        <NuxtLink to="/faq">Вопросы</NuxtLink>
       </li>
 
     </ul>
 
     <button
-      class="px-5 py-3 lg:block border-2 border-blue-500 rounded-lg font-semibold text-blue-500 text-lg hover:bg-blue-500  hover:text-white transition ease-linear duration-500"
+      class="px-5 py-3 lg:block border-2 border-blue-500 bg-white rounded-lg font-semibold text-blue-500 text-lg hover:bg-blue-500  hover:text-white transition ease-linear duration-500"
     >
-      Request quote
+      Забронировать
     </button>
 
   </nav>
