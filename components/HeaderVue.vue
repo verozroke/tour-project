@@ -31,6 +31,7 @@
     </ul>
 
     <button
+      @click="book"
       class="px-5 py-3 lg:block border-2 border-blue-500 bg-white rounded-lg font-semibold text-blue-500 text-lg hover:bg-blue-500  hover:text-white transition ease-linear duration-500"
     >
       Забронировать
@@ -43,7 +44,28 @@
   setup
   lang="ts"
 >
+const router = useRouter()
 
+
+function scrollDown(blockID: string) {
+  const $block = document.getElementById(blockID) ?? document.createElement('div')
+  $block.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  })
+}
+
+const book = () => {
+  if (router.currentRoute.value.path !== '/') {
+    router.push('/')
+    setTimeout(() => {
+      scrollDown('book')
+    }, 1000)
+  } else {
+    scrollDown('book')
+  }
+
+}
 
 </script>
 

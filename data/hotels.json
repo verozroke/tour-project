@@ -1,0 +1,302 @@
+[
+  {
+    "location": "Москва, Россия",
+    "hotelName": "Гостиница Метрополь",
+    "description": "Исторический отель с роскошными номерами и отличным видом на Красную площадь.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Санкт-Петербург, Россия",
+    "hotelName": "Гранд Отель Европа",
+    "description": "Элегантный отель с потрясающей архитектурой и высоким уровнем сервиса.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Казань, Россия",
+    "hotelName": "Мираж Отель",
+    "description": "Современный отель с удобным расположением и отличными условиями для отдыха.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Сочи, Россия",
+    "hotelName": "Рэдиссон Блу Резорт",
+    "description": "Роскошный курортный отель на берегу Черного моря с превосходными удобствами.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Владивосток, Россия",
+    "hotelName": "Hyatt Regency",
+    "description": "Пятизвездочный отель с великолепным видом на Амурский залив.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Екатеринбург, Россия",
+    "hotelName": "Novotel Екатеринбург Центр",
+    "description": "Уютный отель в центре города с современными удобствами.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Калининград, Россия",
+    "hotelName": "Рэдиссон Отель Калининград",
+    "description": "Комфортный отель в центре города с превосходным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Новосибирск, Россия",
+    "hotelName": "DoubleTree by Hilton",
+    "description": "Современный отель с прекрасными условиями для бизнеса и отдыха.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Краснодар, Россия",
+    "hotelName": "Crowne Plaza",
+    "description": "Престижный отель с великолепным обслуживанием и удобным расположением.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Иркутск, Россия",
+    "hotelName": "Marriott Иркутск",
+    "description": "Отель мирового класса с комфортными номерами и современными удобствами.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Казань, Россия",
+    "hotelName": "Корстон Роял",
+    "description": "Элегантный отель с богатой инфраструктурой и отличным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Волгоград, Россия",
+    "hotelName": "Park Inn by Radisson",
+    "description": "Современный отель с удобным расположением и высоким уровнем обслуживания.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Нижний Новгород, Россия",
+    "hotelName": "Sheraton Нижний Новгород Кремль",
+    "description": "Роскошный отель с видом на Кремль и первоклассным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Самара, Россия",
+    "hotelName": "Лотте Отель Самара",
+    "description": "Современный отель с великолепными удобствами и превосходным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Тюмень, Россия",
+    "hotelName": "Ремезов Отель",
+    "description": "Элегантный отель с уютными номерами и отличным обслуживанием.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Уфа, Россия",
+    "hotelName": "Holiday Inn Уфа",
+    "description": "Современный отель с удобным расположением и отличными условиями.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Хабаровск, Россия",
+    "hotelName": "Boutique-Hotel Khabarovsk City",
+    "description": "Уютный бутик-отель с комфортными номерами и прекрасным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Пермь, Россия",
+    "hotelName": "Hilton Garden Inn",
+    "description": "Современный отель с высококлассными удобствами и обслуживанием.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Омск, Россия",
+    "hotelName": "Ибис Омск Центр",
+    "description": "Комфортный отель с отличным расположением и современными удобствами.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Ростов-на-Дону, Россия",
+    "hotelName": "Radisson Blu Ростов-на-Дону",
+    "description": "Роскошный отель с прекрасным видом на реку Дон и первоклассным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Челябинск, Россия",
+    "hotelName": "ParkCity Hotel",
+    "description": "Современный отель с уютными номерами и отличным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Ярославль, Россия",
+    "hotelName": "SK Royal Hotel",
+    "description": "Престижный отель с высоким уровнем обслуживания и комфортными номерами.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Тула, Россия",
+    "hotelName": "Отель Армения",
+    "description": "Элегантный отель в центре города с уютными номерами и прекрасным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Кострома, Россия",
+    "hotelName": "Golden Ring Hotel",
+    "description": "Отель с уютной атмосферой и высоким уровнем сервиса в историческом центре.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Воронеж, Россия",
+    "hotelName": "Амакс Парк-Отель",
+    "description": "Современный отель с отличным сервисом и удобным расположением.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Сургут, Россия",
+    "hotelName": "Медвежий угол",
+    "description": "Уютный отель с традиционной русской атмосферой и отличным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Ставрополь, Россия",
+    "hotelName": "Eurohotel",
+    "description": "Комфортный отель с современными номерами и высоким уровнем обслуживания.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Мурманск, Россия",
+    "hotelName": "Azimut Отель Мурманск",
+    "description": "Современный отель с отличными условиями и удобным расположением.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Тверь, Россия",
+    "hotelName": "Osnabruck Hotel",
+    "description": "Уютный отель в историческом центре Твери с прекрасным обслуживанием.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Петропавловск-Камчатский, Россия",
+    "hotelName": "Petropavlovsk Hotel",
+    "description": "Комфортный отель с великолепным видом на вулканы и превосходным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Париж, Франция",
+    "hotelName": "Le Bristol Paris",
+    "description": "Роскошный отель в центре Парижа с изысканными номерами и превосходным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Рим, Италия",
+    "hotelName": "Hotel Hassler",
+    "description": "Элегантный отель с видом на Испанскую лестницу и первоклассным обслуживанием.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Лондон, Великобритания",
+    "hotelName": "The Ritz London",
+    "description": "Знаменитый отель с роскошными номерами и выдающимся сервисом в центре Лондона.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Берлин, Германия",
+    "hotelName": "Hotel Adlon Kempinski",
+    "description": "Исторический отель с изысканным интерьером и высоким уровнем комфорта.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Барселона, Испания",
+    "hotelName": "W Barcelona",
+    "description": "Современный отель на берегу моря с панорамными видами и первоклассным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Амстердам, Нидерланды",
+    "hotelName": "Hotel Okura Amsterdam",
+    "description": "Роскошный отель с элегантными номерами и великолепным рестораном.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Нью-Йорк, США",
+    "hotelName": "The Plaza",
+    "description": "Знаменитый отель на Пятой авеню с роскошными номерами и отличным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Токио, Япония",
+    "hotelName": "The Peninsula Tokyo",
+    "description": "Элегантный отель с потрясающими видами и современными удобствами.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Сидней, Австралия",
+    "hotelName": "Park Hyatt Sydney",
+    "description": "Роскошный отель с видом на Сиднейский оперный театр и первоклассным обслуживанием.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Дубай, ОАЭ",
+    "hotelName": "Burj Al Arab",
+    "description": "Иконический отель с уникальными интерьерами и непревзойденным уровнем сервиса.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Гонконг, Китай",
+    "hotelName": "The Peninsula Hong Kong",
+    "description": "Элегантный отель с видом на Викторию Харбор и высочайшим уровнем обслуживания.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Бангкок, Таиланд",
+    "hotelName": "Mandarin Oriental Bangkok",
+    "description": "Роскошный отель с потрясающими видами на реку Чао Прайя и первоклассным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Кейптаун, Южная Африка",
+    "hotelName": "One&Only Cape Town",
+    "description": "Изысканный отель с великолепными видами на Столовую гору и первоклассными удобствами.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Сингапур, Сингапур",
+    "hotelName": "Marina Bay Sands",
+    "description": "Знаменитый отель с потрясающим бассейном на крыше и великолепными видами.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Буэнос-Айрес, Аргентина",
+    "hotelName": "Alvear Palace Hotel",
+    "description": "Роскошный отель с элегантными номерами и высоким уровнем обслуживания.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Монреаль, Канада",
+    "hotelName": "The Ritz-Carlton Montreal",
+    "description": "Исторический отель с элегантными номерами и превосходным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Рио-де-Жанейро, Бразилия",
+    "hotelName": "Copacabana Palace",
+    "description": "Иконический отель с видом на пляж Копакабана и первоклассным обслуживанием.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Стамбул, Турция",
+    "hotelName": "Ciragan Palace Kempinski",
+    "description": "Роскошный отель в бывшем дворце с великолепными видами на Босфор.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Мехико, Мексика",
+    "hotelName": "Four Seasons Hotel Mexico City",
+    "description": "Элегантный отель с современными удобствами и высоким уровнем сервиса.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  },
+  {
+    "location": "Сеул, Южная Корея",
+    "hotelName": "Lotte Hotel Seoul",
+    "description": "Современный отель с роскошными номерами и превосходным сервисом.",
+    "imageUrl": "https://images.unsplash.com/photo-1649011556466-76d2b048a096?ixid=M3wxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzA5MDA3NHw&ixlib=rb-4.0.3&q=85&w=1920"
+  }
+]

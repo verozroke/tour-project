@@ -15,15 +15,19 @@
             для отдыха? <br> Обращайтесь к нам!</p>
 
           <button
+            @click="goToWhatsapp"
             class="px-6 py-4 bg-blue-500  text-white font-semibold text-lg rounded-xl hover:bg-blue-700 transition ease-in-out duration-500"
           >Связаться с нами</button>
         </div>
 
-        <div class="hidden xl:block xl:absolute z-0 top-0 right-0">
+        <div
+          class="absolute z-0 top-0 right-0"
+          style="width: 45%"
+        >
           <img
             src="assets/image/home-img.jpg"
             alt="Home img"
-            style="width: 808px; height: 900px; object-fit: cover; object-position: center; border-radius: 10px;"
+            style="width: 100%; height: 900px; object-fit: cover; object-position: center; border-radius: 10px;"
           >
         </div>
 
@@ -36,11 +40,14 @@
 
         <div class="flex flex-col xl:flex-row justify-end">
 
-          <div class="hidden xl:block xl:absolute left-0 bottom-0 w-full">
+          <div
+            class="absolute left-0 bottom-0 w-full"
+            style="width: 45%"
+          >
             <img
               src="/assets/image/feauture-img.jpg"
               alt="Feature img"
-              style="width: 798px; height: 798px; object-fit: cover; object-position: center; border-radius: 10px;"
+              style="width: 100%; height: 798px; object-fit: cover; object-position: center; border-radius: 10px;"
             >
           </div>
 
@@ -48,32 +55,32 @@
 
             <h1 class="font-semibold text-gray-900 text-xl md:text-4xl leading-normal mb-6">О нас</h1>
 
-            <p class="font-normal text-gray-400 text-md md:text-xl mb-16">We provide a wide of selection of
-              home types for you and your <br> family and are free to choose a home model</p>
+            <p class="font-normal text-gray-400 text-md md:text-xl mb-16">Мы предоставляем широкий выбор отелей и
+              доступных путевок, <br> чтобы ваше путешествие было незабываемым.</p>
 
             <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
               <div class="text-center md:text-left">
-                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Best Home Guarantee</h4>
-                <p class="font-normal text-gray-400 text-xl leading-relaxed">We guarantees the quality of your home you
-                  bought <br> from D’house</p>
+                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Лучшие цены</h4>
+                <p class="font-normal text-gray-400 text-xl leading-relaxed">Мы предлагаем конкурентоспособные цены на
+                  бронирование <br> отелей и путевок, чтобы сделать ваши путешествия доступнее.</p>
               </div>
             </div>
 
             <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
 
               <div class="text-center md:text-left">
-                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Safe Transaction</h4>
-                <p class="font-normal text-gray-400 text-xl leading-relaxed">Your transactions will always be kept
-                  confidential <br> and will get discounted</p>
+                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Надежность и безопасность</h4>
+                <p class="font-normal text-gray-400 text-xl leading-relaxed">Мы гарантируем безопасность ваших
+                  транзакций <br> и защиту персональных данных.</p>
               </div>
             </div>
 
             <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4">
 
               <div class="text-center md:text-left">
-                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Low and Cost Home Taxes</h4>
-                <p class="font-normal text-gray-400 text-xl leading-relaxed">By buying a house from D’house, you will
-                  get a tax <br> discount</p>
+                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Удобство и простота</h4>
+                <p class="font-normal text-gray-400 text-xl leading-relaxed">Наш сайт обеспечивает легкий и быстрый <br>
+                  процесс бронирования, экономя ваше время и усилия.</p>
               </div>
             </div>
 
@@ -92,43 +99,44 @@
         <div class="flex flex-col xl:flex-row justify-end">
           <div class="w-full">
 
-            <h1 class="font-semibold text-gray-900 text-xl md:text-4xl leading-normal mb-6">Почему мы?</h1>
-
-            <p class="font-normal text-gray-400 text-md md:text-xl mb-16">We provide a wide of selection of
-              home types for you and your <br> family and are free to choose a home model</p>
+            <h1 class="font-semibold text-gray-900 text-xl md:text-4xl leading-normal mb-16">Почему мы?</h1>
 
             <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
               <div class="text-center md:text-left">
-                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Best Home Guarantee</h4>
-                <p class="font-normal text-gray-400 text-xl leading-relaxed">We guarantees the quality of your home you
-                  bought <br> from D’house</p>
+                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Широкий выбор</h4>
+                <p class="font-normal text-gray-400 text-xl leading-relaxed">Мы предлагаем разнообразные варианты отелей
+                  <br> и путевок, чтобы удовлетворить все ваши потребности.
+                </p>
               </div>
             </div>
 
             <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4 mb-20">
 
               <div class="text-center md:text-left">
-                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Safe Transaction</h4>
-                <p class="font-normal text-gray-400 text-xl leading-relaxed">Your transactions will always be kept
-                  confidential <br> and will get discounted</p>
+                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Лучшие предложения</h4>
+                <p class="font-normal text-gray-400 text-xl leading-relaxed">Наши цены и скидки делают <br> путешествия
+                  доступными для любого бюджета.</p>
               </div>
             </div>
 
             <div class="flex flex-col md:flex-row justify-center xl:justify-start space-x-4">
 
               <div class="text-center md:text-left">
-                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Low and Cost Home Taxes</h4>
-                <p class="font-normal text-gray-400 text-xl leading-relaxed">By buying a house from D’house, you will
-                  get a tax <br> discount</p>
+                <h4 class="font-semibold text-gray-900 text-2xl mb-2">Отличное обслуживание</h4>
+                <p class="font-normal text-gray-400 text-xl leading-relaxed">Мы обеспечиваем высокий уровень поддержки
+                  клиентов, <br> помогая на каждом этапе вашего бронирования.</p>
               </div>
             </div>
 
           </div>
-          <div class="absolute right-0 bottom-0">
+          <div
+            class="absolute right-0 top-0"
+            style="width: 45%"
+          >
             <img
               src="https://images.unsplash.com/photo-1655337169484-d9bf5a8c5b6f?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Feature img"
-              style="width: 798px; height: 798px; object-fit: cover; object-position: center; border-radius: 10px;"
+              style="width: 100%; height: 798px; object-fit: cover; object-position: center; border-radius: 10px;"
             >
           </div>
         </div>
@@ -141,19 +149,21 @@
 
       <div class="container max-w-screen-xl mx-auto px-4">
 
-        <h1 class="font-semibold text-gray-900 text-4xl text-center mb-10">Доступные Путёвки</h1>
+        <h1 class="font-semibold text-gray-900 text-4xl text-center mb-10 mt-10">Доступные Путёвки</h1>
 
         <div class="flex space-x-4 md:space-x-6 lg:space-x-8">
           <div>
             <img
               src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/91/53/d1.jpg"
               alt="image"
+              @click="scrollDown('book')"
               style="width: 411px; height: 280px;"
               class="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 object-cover object-center transition ease-in-out duration-500"
             >
             <img
               src="https://blog.howlanders.com/wp-content/uploads/2021/08/tours-to-machu-picchu.jpg"
               alt="image"
+              @click="scrollDown('book')"
               style="width: 411px; height: 592px;"
               class="hover:opacity-75 transition object-cover object-center ease-in-out duration-500"
             >
@@ -164,18 +174,21 @@
             <img
               src="https://nationalparkexpress.com/wp-content/uploads/2022/05/grand-canyon-west-1.jpg"
               alt="image"
+              @click="scrollDown('book')"
               style="width: 411px; height: 280px;"
               class="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 object-cover object-center transition ease-in-out duration-500"
             >
             <img
               src="https://www.nationalgeographic.com/content/dam/expeditions/destinations/africa/journeys/Tanzania-Safari-Experience/tanzania-safari-experience-lead-lion-cubs.jpg"
               alt="image"
+              @click="scrollDown('book')"
               style="width: 411px; height: 280px;"
               class="mb-3 md:mb-6 lg:mb-8 hover:opacity-75 object-cover object-center transition ease-in-out duration-500"
             >
             <img
               src="https://www.tauck.com/-/media/Tauck/Collection/Hero-Images/Collection_RiverCruising_banner.jpg?h=817&w=1400&rev=d476ae5fcad245328f8813d80f321649&hash=C65DBFD85BE7626CA48EF9D2D1FFDEFA"
               alt="image"
+              @click="scrollDown('book')"
               style="width: 411px; height: 280px;"
               class="hover:opacity-75 transition object-cover object-center ease-in-out duration-500"
             >
@@ -185,12 +198,14 @@
             <img
               src="https://quicksilver-cruises.com/qsc/wp-content/uploads/2015/10/hero-mobile-720-bg3.jpg"
               alt="image"
+              @click="scrollDown('book')"
               style="width: 411px; height: 592px;"
               class="mb-4 md:mb-6 lg:mb-8 hover:opacity-75 object-cover object-center transition ease-in-out duration-500"
             >
             <img
               src="https://media.tacdn.com/media/attractions-splice-spp-674x446/12/2e/16/f8.jpg"
               alt="image"
+              @click="scrollDown('book')"
               style="width: 411px; height: 280px;"
               class="hover:opacity-75 transition ease-in-out object-cover object-center duration-500"
             >
@@ -505,100 +520,57 @@
 
       <div class="container max-w-screen-xl mx-auto px-4 xl:relative">
 
-        <p class="font-normal text-gray-400 text-lg md:text-xl text-center uppercase mb-6">Testimonial</p>
+        <p class="font-normal text-gray-400 text-lg md:text-xl text-center uppercase mb-6">Отзывы</p>
 
-        <h1 class="font-semibold text-gray-900 text-2xl md:text-4xl text-center leading-normal mb-14">What People Say
-          <br> About D’house
+        <h1 class="font-semibold text-gray-900 text-2xl md:text-4xl text-center leading-normal mb-14">Что наши клиенты
+          <br>
+          говорят о Tour+
         </h1>
-
-        <div class="hidden xl:block xl:absolute top-0">
-          <img
-            src="assets/image/testimoni-1.png"
-            alt="Image"
-          >
-        </div>
-
-        <div class="hidden xl:block xl:absolute top-32">
-          <img
-            src="assets/image/testimoni-2.png"
-            alt="Image"
-          >
-        </div>
 
         <div class="flex flex-col md:flex-row md:items-center justify-center md:space-x-8 lg:space-x-12 mb-10 md:mb-20">
 
-          <div class="bg-gray-100 rounded-lg mb-10 md:mb-0">
+          <div class="bg-gray-100 h-96 flex flex-col w-96 py-4 px-4 justify-center rounded-lg mb-10 md:mb-0">
             <img
               src="assets/image/testimoni-3.png"
               alt="Image"
-              class="mx-8 my-8"
+              class="mx-8 my-8 w-[76px] h-[76px] rounded-full"
             >
+            <p class="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8"><b>Отличный сервис!</b> Tour+ помог мне
+              <br> найти отличное жилье <br> по доступной цене, а персонал был очень <br> отзывчивым и помог во всем.
+            </p>
 
-            <div class="flex items-center gap-5 mx-8">
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-            </div>
-
-            <p class="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8">I recommend anyone to buy house on <br>
-              D’house. I received great customer service <br> from the specialists who helped me.</p>
-
-            <h3 class="font-semibold text-gray-900 text-xl md:text-2xl lg:text-3xl mx-8 mb-8">Brooklyn Simmons</h3>
+            <h3 class="font-semibold text-gray-900 text-xl md:text-2xl lg:text-3xl mx-8 mb-8">Огуречкин Иван</h3>
           </div>
 
-          <div class="bg-gray-100 rounded-lg">
+          <div class="bg-gray-100 h-96 flex flex-col w-96 py-4 px-4 justify-center rounded-lg">
             <img
               src="assets/image/testimoni-4.png"
               alt="Image"
-              class="mx-8 my-8"
+              class="mx-8 my-8 w-[76px] h-[76px] rounded-full"
             >
 
-            <div class="flex items-center gap-5 mx-8">
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-              <i
-                data-feather="star"
-                class="text-yellow-500"
-              ></i>
-            </div>
-
-            <p class="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8">D’house is the best property agent in the
-              <br> world. I received great customer service <br> from the D’house agent
+            <p class="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8"><b>Превосходный опыт!</b> Благодаря Tour+
+              <br> я смог забронировать <br> шикарный отель по <br> выгодной цене, и <br> путешествие прошло безупречно.
             </p>
 
-            <h3 class="font-semibold text-gray-900 text-xl md:text-2xl lg:text-3xl mx-8 mb-8">Ralph Edwards</h3>
+            <h3 class="font-semibold text-gray-900 text-xl md:text-2xl lg:text-3xl mx-8 mb-8">Аскар Ильясов</h3>
           </div>
+
+          <div class="bg-gray-100 h-96 flex flex-col w-96 py-4 px-4 justify-center rounded-lg">
+            <img
+              src="https://lh3.googleusercontent.com/a/ACg8ocLNnpBT5QCj42Y7MWvp-jciaMu8szTvfb91B-ADCXM3-p6sOkZO=s360-c-no"
+              alt="Image"
+              class="mx-8 my-8 w-[76px] h-[76px] rounded-full"
+            >
+
+            <p class="font-normal text-sm lg:text-md text-gray-400 mx-8 my-8"><b>Рекомендую всем!</b> Сервис Tour+ <br>
+              значительно упростил выбор <br> и бронирование путевок, <br> предлагая лучшие предложения <br> по отличным
+              ценам.
+            </p>
+
+            <h3 class="font-semibold text-gray-900 text-xl md:text-2xl lg:text-3xl mx-8 mb-8">Айя Шалкар</h3>
+          </div>
+
 
         </div>
 
@@ -608,7 +580,10 @@
     <!-- testimoni section //end -->
 
     <!-- book section -->
-    <section class="bg-white py-10 md:py-16">
+    <section
+      class="bg-white py-10 md:py-16"
+      id="book"
+    >
 
       <div class="container max-w-screen-xl mx-auto px-4 xl:relative">
 
@@ -717,6 +692,20 @@ const send = async () => {
 }
 
 
+function scrollDown(blockID: string) {
+  const $block = document.getElementById(blockID) ?? document.createElement('div')
+  $block.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  })
+}
+
+const goToWhatsapp = () => {
+  const link = document.createElement('a')
+  link.href = 'https://wa.me/77711160994'
+  link.target = '_blank'
+  link.click()
+}
 </script>
 
 <style scoped></style>
