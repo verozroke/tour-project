@@ -223,7 +223,7 @@
 
         <h1 class="font-semibold text-gray-900 text-4xl text-center mb-10">Наши Отели</h1>
         <div class="flex flex-wrap -m-4">
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+          <div class="lg:w-1/4 sm:w-1/3 p-4 rounded-md">
             <div class="flex relative">
               <img
                 alt="gallery"
@@ -239,7 +239,7 @@
               </div>
             </div>
           </div>
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+          <div class="lg:w-1/4 sm:w-1/3 p-4 rounded-md">
             <div class="flex relative">
               <img
                 alt="gallery"
@@ -255,7 +255,7 @@
               </div>
             </div>
           </div>
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+          <div class="lg:w-1/4 sm:w-1/3 p-4 rounded-md">
             <div class="flex relative">
               <img
                 alt="gallery"
@@ -271,7 +271,7 @@
               </div>
             </div>
           </div>
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+          <div class="lg:w-1/4 sm:w-1/3 p-4 rounded-md">
             <div class="flex relative">
               <img
                 alt="gallery"
@@ -287,7 +287,7 @@
               </div>
             </div>
           </div>
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+          <div class="lg:w-1/4 sm:w-1/3 p-4 rounded-md">
             <div class="flex relative">
               <img
                 alt="gallery"
@@ -303,7 +303,7 @@
               </div>
             </div>
           </div>
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
+          <div class="lg:w-1/4 sm:w-1/3 p-4 rounded-md">
             <div class="flex relative">
               <img
                 alt="gallery"
@@ -329,7 +329,10 @@
 
         <h1 class="font-semibold text-gray-900 text-4xl text-center mb-10">Страны сотрудничества</h1>
         <div class="flex flex-wrap -m-4">
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -344,7 +347,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -359,7 +365,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -374,7 +383,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -389,7 +401,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -404,7 +419,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -419,7 +437,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -434,7 +455,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -449,7 +473,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -464,7 +491,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -479,7 +509,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -494,7 +527,10 @@
             </div>
           </div>
 
-          <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md h-96">
+          <div
+            @click="router.push('/hotels')"
+            class="lg:w-1/4 sm:w-1/3 p-4 rounded-md h-52"
+          >
             <div class="flex relative h-[100%]">
               <img
                 alt="gallery"
@@ -632,7 +668,7 @@
 
             <div class="py-3 relative">
               <input
-                type="text"
+                type="date"
                 v-model="DateData"
                 placeholder="Дата поездки"
                 class="px-4 py-4 w-96 bg-gray-100 font-normal text-lg placeholder-gray-400 rounded-xl outline-none"
@@ -640,12 +676,17 @@
             </div>
 
             <div class="py-3 relative">
-              <input
-                type="text"
-                placeholder="Название отеля"
+              <select
                 v-model="HotelName"
+                placeholder="Название отеля"
                 class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 rounded-xl outline-none"
               >
+                <option
+                  v-for="hotel in hotels"
+                  :key="hotel.hotelName"
+                  :value="hotel.hotelName"
+                >{{ hotel.hotelName }}</option>
+              </select>
 
               <div class="absolute inset-y-0 left-80 ml-6 flex items-center text-xl text-gray-600">
                 <i data-feather="chevron-down"></i>
@@ -674,11 +715,16 @@
   lang="ts"
 >
 import axios from 'axios'
+import type { Hotel } from '~/components/HotelCard.vue';
+import hotelsData from '../data/hotels.json' with { type: 'json'}
+
+const hotels = ref<Hotel[]>(hotelsData)
+const router = useRouter()
 
 const Name = ref('')
 const Phone = ref('')
 const DateData = ref('')
-const HotelName = ref('')
+const HotelName = ref('Гостиница Метрополь')
 
 const send = async () => {
   const { data } = await axios.postForm('https://script.google.com/macros/s/AKfycbzvlPI8dZbkuCHPyBkl9QYnNoqPMitxvtJ9lwN8OOdfQOlUeEJ9duyMTpoHFlhsJdqqkg/exec', {
