@@ -4,9 +4,17 @@
     <p class="text-center text-gray-600 text-sm mt-2">Здесь вы найдете списки всех отелей</p>
     <div class="flex flex-wrap gap-5 w-full px-20 py-5 items-center justify-center">
       <HotelCard
+        @click="() => {
+          modal = true
+          currentHotel = hotel
+        }"
         v-for="hotel in hotels"
         :key="hotel.hotelName"
         :hotel
+      />
+      <HotelModal
+        :hotel="currentHotel"
+        v-model="modal"
       />
     </div>
   </div>
@@ -19,6 +27,15 @@
 import type { Hotel } from '~/components/HotelCard.vue';
 import hotelsData from '../data/hotels.json' with { type: 'json'}
 
+
+const modal = ref(false)
+const currentHotel = ref<Hotel>({
+  description: '',
+  imageUrl: '',
+  hotelName: '',
+  location: "",
+  price: "",
+})
 const hotels = ref<Hotel[]>(hotelsData)
 </script>
 
