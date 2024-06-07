@@ -12,7 +12,7 @@
       <div class="px-8 py-10 pt-44 relative  w-full bg-white">
         <h2 class="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">{{ hotel.location }}</h2>
         <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{ hotel.hotelName }}</h1>
-        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{ hotel.price }}</h1>
+        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">От {{ hotel.price }}</h1>
         <p class="leading-relaxed">{{ hotel.description }}</p>
         <button
           @click="book"
